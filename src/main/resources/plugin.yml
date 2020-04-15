@@ -1,0 +1,12 @@
+name: SeniorTempmute
+version: 1.0.0
+main: br.com.eike.tempmute.Terminal
+author: Eike
+description: "A plugin for the Senior Team test"
+commands:
+  tempmute:
+    permission: admin.tempmute
+    permission-message: "§cYou can't do it"
+  unmute:
+    permission: admin.unmute
+    permission-message: "§cYou can't do it"
