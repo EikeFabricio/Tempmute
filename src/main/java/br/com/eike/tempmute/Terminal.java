@@ -18,7 +18,7 @@ public class Terminal extends JavaPlugin {
         if (!getDataFolder().exists()) getDataFolder().mkdir();
 
         myDB = new MyDB(getDataFolder());
-        // SQLite doesn't suport Long
+        // SQLite doesn't support Long type
         myDB.update("CREATE TABLE IF NOT EXISTS `mutedUsers` " +
                 "(`userId` CHAR(36) NOT NULL, `muteTime`INTEGER NOT NULL, PRIMARY KEY (userId));");
 
